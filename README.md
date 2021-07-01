@@ -13,7 +13,7 @@ Let's say you own the domain `example.com`, and want to run your project under `
 
 ### Part 2: Redirecting example.com to www.example.com
 1. Clone this project
-2. **Replace `www.example.com` under `vercel.json` on line 3 to your own domain.** 
+2. **Replace `www.example.com`**  under `vercel.json` on line 3 and 4 to your own domain.
 3. Deploy it in your Vercel Account
 4. Go to the deployment settings > Domains > add `example.com` to this deployment.
 5. It will automatically redirect requests to `example.com/*` to `www.example.com/*`
